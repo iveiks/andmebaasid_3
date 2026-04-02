@@ -1,0 +1,20 @@
+services:
+ ws:
+  image: php:8.2-apache
+  ports:
+   - "8080:80"
+  volumes:
+   - "./public:/var/www/html"
+ db:
+  image: mariadb
+  environment:
+   MARIADB_ROOT_PASSWORD: Passw0rd
+   MARIADB_DATABASE: autorent
+  volumes:
+   - "./db_data:/var/lib/mysql"
+ dbm:
+  image: phpmyadmin
+  environment:
+   PMA_HOST: db
+  ports:
+   - "8081:80"
