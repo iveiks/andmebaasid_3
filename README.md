@@ -4,7 +4,7 @@
     </h1>
     Selle projekti käivitamiseks:
     <ul>
-      <li>Sikuta "autorent" kaust enda arvutisse</li>
+      <li>Sikuta projekt enda arvutisse (Code > Download zip) ja paki lahti</li>
       <li>Käivita enda arvutis Docker</li>
       <li>Enda arvuti terminaliga mine sinna kausta ning sisesta see käsk '<b>docker compose up --build -d</b>' (tõmbab vajalikud failid ning käivitab konteinerid)</li>
       <li>Kui kõik on korras ja konteinerid töötavad, peaksid saama brauseriga ligi kahele aadressile:
