@@ -2,9 +2,9 @@
 
 // *** Protseduuriline *** //
 // Sinu andmed
-$db_server = 'db';
+$db_server = 'db'; // Kuna kasutan Dockerit, siis muutsin selle 'db' (yaml failis andmebaasi konteineri hostname), enne oli 'localhost'
 $db_andmebaas = 'autorent';
-$db_kasutaja = 'root';
+$db_kasutaja = 'admin'; // Vaikimisi 'root', kuid lisasin phpMyadminis 'admin' kasutaja, piiratud õigustega, nagu tunniski
 $db_salasona = 'Passw0rd';
 
 
