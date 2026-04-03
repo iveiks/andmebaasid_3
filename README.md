@@ -15,6 +15,7 @@
       </li>
       <li>Kui vajalikud toimingud tehtud, sisesta terminalis see käsk '<b>docker compose down</b>' (peatab ning kustutab konteinerid).</li>
     </ul>
+    <hr>
     <p>
       Nagu ennegi, kasutasin töö tegemiseks Dockerit. Apache ja muu vajaliku seadistamine on seetõttu väga lihtne, kuna kasutasin olemasolevaid image'eid. <br>
       Yaml failis on ära defineeritud kolm konteinerit: üks Apache serveri jaoks, teine MySQL andmebaasi jaoks ja kolmas phpMyAdmini jaoks. <br>
